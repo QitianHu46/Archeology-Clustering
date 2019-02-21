@@ -3,6 +3,9 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
+# Mac
+.Ds_Store
+
 # Python:
 *.py[cod]
 *.so
