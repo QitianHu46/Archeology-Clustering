@@ -5,7 +5,7 @@ import numpy as np
 if True:
     import shapefile
 
-    path = 'residences.shp'
+    path = 'Residences.shp'
     sf = shapefile.Reader(path)
 
 # assert len(sf) == 2456 # no. of shapes
@@ -47,6 +47,7 @@ if False:
 
 
 # POINTS AS THE GEOMETRIC AVERAGE OF SHAPES
+
 rsd_raw = []
 for i in range(len(sf.shapes())):
 # for i in range(len(sf.shapes())):
@@ -54,6 +55,7 @@ for i in range(len(sf.shapes())):
     for j in range(len(sf.shapes()[i].points)):
 #         rsd_raw[-1].append([]) # add a point
         rsd_raw[-1].append(list(sf.shapes()[i].points[j])) # add a point in each shape
+
 
 # get rid of a strange empty set of data
 rsd_raw = rsd_raw[:2448] + rsd_raw[2449:]
@@ -66,6 +68,7 @@ for i in range(len(rsd_raw)):
         rsd_raw[i][j] = np.asarray(rsd_raw[i][j])
 
 
+
 def getArea(x,y):
     return 0.5*np.abs(np.dot(x,np.roll(y,1))-np.dot(y,np.roll(x,1)))
 
@@ -76,8 +79,8 @@ for i in range(len(rsd_raw)):
     rsd_forExport.append([])
     rsd_forExport[-1] = [
         # a: the a_th point in a shape
-        (1/6)*area*sum([ ((rsd_raw[i][a][0] + rsd_raw[i][a+1][0])*
-                  (rsd_raw[i][a][0]*rsd_raw[i][a+1][1] - rsd_raw[i][a][1]*rsd_raw[i][a+1][0])) 
+        (1/6)*area*sum([ ((rsd_raw[i][a][0] + rsd_raw[i][a+1][0]) *
+                  (rsd_raw[i][a][0] * rsd_raw[i][a+1][1] - rsd_raw[i][a][1] * rsd_raw[i][a+1][0])) 
                   for a in range(len(rsd_raw[i])-1)
                 ])
         ,

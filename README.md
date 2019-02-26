@@ -1,4 +1,4 @@
-# Intro
+## Intro
 
 Site: Teotihuacan
 

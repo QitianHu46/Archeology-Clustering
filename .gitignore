@@ -18,3 +18,4 @@ build
 db.ini
 deploy_key_rsa
 Junk/
+_config.yml
