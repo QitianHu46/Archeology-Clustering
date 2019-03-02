@@ -1,3 +1,33 @@
+* for existing clusters
+  * Area
+    * built area
+    * total area
+    * number of structures
+  * individual structures
+    * frequency plot
+      * frequency vs. area (for each cluster)
+        * is buildings inside clusters more homogeneous
+        * Gini coefficient on area 
+        * measure validity of clustering
+* Classification of buildings
+  * Murals? 
+  * Status 
+    * e.g. insubstantial structures 
+    * once have clusters: 
+  * measure segregation 
+* compare center of cluster with civic buildings
+* Tikal
+  * do clustering
+  * compare with existing boundaries
+* packages
+  * shapely
+  * fiona
+  * Descartes.path
+
+
+
+
+
 ## Intro
 
 Site: Teotihuacan
