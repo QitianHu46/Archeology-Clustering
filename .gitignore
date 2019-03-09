@@ -18,4 +18,5 @@ build
 db.ini
 deploy_key_rsa
 Junk/
+FileStack/
 _config.yml
