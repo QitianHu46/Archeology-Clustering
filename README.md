@@ -97,3 +97,13 @@ Site: Teotihuacan
   - fiona
   - Descartes.path
 
+
+
+# Meeting with Luis Apr 16
+
+Teo
+
+- unit
+- (+) linear fit loglog, area vs. area
+- Insubstantial or building type?
+- heat map of the density
