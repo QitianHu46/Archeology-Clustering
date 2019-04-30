@@ -107,3 +107,4 @@ Teo
 - (+) linear fit loglog, area vs. area
 - Insubstantial or building type?
 - heat map of the density 
+
