@@ -1,0 +1,1 @@
+in the exported geoJSON file, building objects with error cluster no are noted with -1
