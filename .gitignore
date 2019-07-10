@@ -20,3 +20,4 @@ deploy_key_rsa
 Junk/
 FileStack/
 _config.yml
+.Rproj.user
