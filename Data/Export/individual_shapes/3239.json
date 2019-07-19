@@ -1,1 +1,1 @@
-{"type": "Feature", "id": "783", "properties": {"Id": 3240, "Count": 0.0, "POP": 0.0, "Notes": null, "kmeans_num": 6}, "geometry": {"type": "Point", "coordinates": [-11006086.34553806, 2236180.720579283]}}
+{"type": "Feature", "id": "783", "properties": {"Id": 3239, "Count": 0.0, "POP": 0.0, "Notes": null, "kmeans_num": 6, "meanshift_num": 4, "DBSCAN_num": 0}, "geometry": {"type": "Point", "coordinates": [-11006086.34553806, 2236180.720579283]}}
